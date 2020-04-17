@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RollDie", "RollDie\RollDie.csproj", "{AC78D891-5793-4F15-A352-622A6CD28F10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC78D891-5793-4F15-A352-622A6CD28F10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC78D891-5793-4F15-A352-622A6CD28F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC78D891-5793-4F15-A352-622A6CD28F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC78D891-5793-4F15-A352-622A6CD28F10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1DACC43-0C2D-4E2B-95F7-5676448E73B0}
+	EndGlobalSection
+EndGlobal
