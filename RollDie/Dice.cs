@@ -6,32 +6,22 @@ namespace RollDie
 {
     class Dice
     {
+        public static Random random = new Random();
         public static int die1_face_value;
         public static int die2_face_value;
-        public static Random random = new Random();
         private static int numberOfSides;
         public static int count = 0;
         public static int die1_sides = numberOfSides;
         public static int die2_sides = numberOfSides;
-
-        static void Main(string[] args)
+        
+        //constructor
+        public Dice()
         {
-            {
-                //sets initial number of sides of die between 4 and 20
-                numberOfSides = random.Next(4, 20);
-
-                Console.WriteLine("Each die has" + " " + numberOfSides + " " + "sides");
-
-                // creates object of class Dice 
-                Dice d = new Dice();
-
-                // calls rollDice method
-                d.rollDice(); 
-
-                // prints results to console
-                Console.WriteLine("It took" + " " + count + " " + "roll(s) to get snake eyes!");
-            }
+            //sets initial number of sides of die between 4 and 20
+            numberOfSides = random.Next(4, 20);
+            Console.WriteLine("Each die has" + " " + numberOfSides + " " + "sides");
         }
+
         public void rollDice()
         {
             do
@@ -48,7 +38,8 @@ namespace RollDie
 
             while (die1_face_value + die2_face_value != 2);
 
-            // the results print when above statement is false (die1_face_value + die2_face_value == 2)
+            // prints results to console
+            Console.WriteLine("It took" + " " + count + " " + "roll(s) to get snake eyes!");
         }
     }
 }
